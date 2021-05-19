@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paginação</title>
+    
+    <style>
+       
+        .princ {
+            width: 200px;
+            border: 1px solid;
+            height: 200px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            min-width: 100px;
+            background-color: rgba(175, 175, 175, 0.185);
+            
+
+        }
+
+        .bloco {
+            float: left;
+            width: 5%;
+            padding: 2px;
+            border-bottom: 1px solid rgb(105, 104, 104);
+            border-left: 1px solid gray;
+            border-top: 1px solid gray;
+            text-align: center;
+            min-width: 20px;
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            background-color: white;
+            
+
+        }
+
+        .bloco1 {
+            float: left;
+            padding: 2px;
+            border-right: 1px solid gray;
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+            border-left: 1px solid gray;
+            width: 5%;
+            text-align: center;
+            min-width: 20px;
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer;
+            background-color: white;
+            
+        }
+        body {
+            margin-top: 110px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .bloco:hover {
+            background-color: rgba(155, 157, 168, 0.89);
+            color: blue;
+        }
+        .bloco1:hover {
+            background-color: rgba(155, 157, 168, 0.89);
+            color: blue;
+        }
+        footer {
+            position: absolute;
+            margin-top: 400px;
+            font-size: xx-small;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="princ">
+        <div class="bloco"> << </div>
+                <div class="bloco">
+                    1
+                </div>
+                <div class="bloco">
+                    2
+                </div>
+                <div class="bloco">
+                    3
+                </div>
+                <div class="bloco1">
+                    >>
+                </div>
+        </div>
+
+
+</body>
+<footer><small>Paginação - Atividade do Forum Temático da Disciplina Responsive Web Developement - Gustavo Luiz Cittadela</small></footer>
+
+</html>
